@@ -8,21 +8,28 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px 15px 20px 25px;
+    padding: 30px 15px 0px 25px;
     background-color: black;
 }
 header h1 {
+    width: 135%;
     font-weight: bold;
-    font-size: 38px;
-    color: blue;
-    margin: 0;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    background-color: rgb(45, 197, 189);
+    margin: 0px;
+}
+header p {
+    color: black;
 }
 header a {
     text-decoration: none;
-    color: blue;
+    text-decoration-line: underline;
+    color: rgb(45, 197, 189);
 }
 header nav {
-    margin: 7px 0;
+    margin: 7px 0px;
 }
 header nav ul {
     display: flex;
@@ -32,8 +39,37 @@ header nav ul {
     list-style: none;
 }
 header nav ul li a {
+    margin: 0 40px;
+    font-weight: lighter;
+    font-size: 1.90vw;
+}
+/* footer Style starts*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    width: 100%;
+    padding: 40px 35px;
+}
+footer h2 {
+    color: cornflowerblue;
+    font-size: 30px;
+    margin: 0;
+}
+footer nav {
+    margin: 7px;
+}
+footer nav ul {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+footer nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    color: black;
+    font-size: 1.90vw;
 }
-
