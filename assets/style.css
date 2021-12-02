@@ -82,7 +82,7 @@ footer nav ul li a {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
+    justify-content: cen  ter;
     flex-wrap: wrap;
 }
 
