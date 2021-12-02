@@ -73,3 +73,77 @@ footer nav ul li a {
     color: black;
     font-size: 1.90vw;
 }
+
+/* hero styles start here */
+
+.hero {
+    background-image: url("..assets/images/radiology_static_1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+  }
+
+.hero-cta p {
+    font-style: inherit;
+    font-size: 20px;
+    color: rgb(45, 197, 189);
+}  
+
+.hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding:20px;
+    color: #024e76;
+    width: 40%;
+    margin: 3.5%;
+}
+
+.hero-form h3 {
+    font-size: 24;
+    margin: 0px;
+}
+
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+} 
+
+.hero-form label {
+  margin: 0 5px;
+}
+
+.hero-form button {
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    color: #fce138;
+    font-size: 16px;
+}
+
+/* Hero styles end here */
