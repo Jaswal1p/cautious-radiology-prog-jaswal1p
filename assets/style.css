@@ -77,7 +77,8 @@ footer nav ul li a {
 /* hero styles start here */
 
 .hero {
-    background-image: url("assets/images/radiology_static_1.jpg");
+    background-image: url("..assets/radiology_static_1.jpg");
+    height: 600px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -147,3 +148,9 @@ footer nav ul li a {
 }
 
 /* Hero styles end here */
+
+/* utilities */
+
+section {
+    padding: 60px;
+}
