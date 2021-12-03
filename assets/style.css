@@ -25,8 +25,10 @@ header p {
 }
 header a {
     text-decoration: none;
-    text-decoration-line: underline;
     color: rgb(45, 197, 189);
+}
+header a:hover {
+    color: #fff;
 }
 header nav {
     margin: 7px 0px;
@@ -77,7 +79,7 @@ footer nav ul li a {
 /* hero styles start here */
 
 .hero {
-    background-image: url("..assets/radiology_static_1.jpg");
+    background-image: url("../assets/radiology_static_1.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
