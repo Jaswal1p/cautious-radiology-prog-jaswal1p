@@ -84,7 +84,7 @@ footer nav ul li a {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: cen  ter;
+    justify-content:space-between;
     flex-wrap: wrap;
 }
 
@@ -92,9 +92,9 @@ footer nav ul li a {
     width: 35%;
     text-align: right;
     margin: 3.5%;
-    color: #fff;
     font-size: 18px;
     line-height: 1.3;
+    padding: 5px 20px 0 0;
 }
 
 .hero-cta h2 {
@@ -106,16 +106,20 @@ footer nav ul li a {
 .hero-cta p {
     font-style: inherit;
     font-size: 20px;
+    text-align: justify;
     color: rgb(45, 197, 189);
 }  
 
 .hero-form {
     border: 3px solid #024e76;
     background-color: #8fbbc9;
-    padding:20px;
+    padding:20px 0 0 20px;
     color: #024e76;
     width: 40%;
     margin: 3.5%;
+}
+.hero-form-input {
+    width: 80%;
 }
 
 .hero-form h3 {
@@ -182,28 +186,34 @@ footer nav ul li a {
 
 .surf {
     background-image: url("../assets/IMG_4253.jpg");
+    background-size: auto;
     width: 100%;
     padding-top: 400px;
 }
 
 .led {
-    width: 50%;
+    background-image: url("../assets/iot-in-healthcare.png");
+    background-size: auto;
+    width: 45%;
     padding-top: 200px;
 }
 
 .calculator {
-    width: 50%;
+    background-size: auto;
+    width: 45%;
     padding-top: 200px;
 }
 
-.pastel {
-    width: 50%;
+.pastel { 
+    background-size: auto;
+    width: 45%;
     padding-top: 200px;
 }
 
 .run {
     background-image: url("../assets/hero-rad-bg.jpg");
-    width: 50%;
+    background-size: contain;
+    width: 45%;
     padding-top: 200px;
 }
 
