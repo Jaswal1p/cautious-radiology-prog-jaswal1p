@@ -152,6 +152,7 @@ footer a:hover {
 
 .form-input:focus {
     background-color: rgba(255,255,255, 1);
+    outline: none;
 }
 
 .hero-form label {
@@ -171,19 +172,65 @@ footer a:hover {
     justify-content:space-evenly;
 }
 
-.flex-column {
+.flex-column1 {
     margin: 10px;
     padding-right: 15px;
-    padding-bottom: 900px;
+    padding-bottom: 200px;
     width: 20%;
-    border-right: 5px solid #39a6b2;
+    border-right: 10px solid blue;
     display: flex;
     flex-wrap: wrap;
     align-items: right;
     justify-content:right;
 }
 
-.flex-column h2 {
+.flex-column1 h2 {
+    font-size: 45px;
+}
+
+.my-cta {
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content:space-between;
+    justify-items: stretch;
+}
+
+.clinical {
+    background-image: url("../assets/iot-in-healthcare.png");
+    background-position: center;
+    margin: 4px;
+    width: 49%;
+    padding-top: 200px;
+    border: 5px solid #39a6b2;
+}
+
+.programming {
+    background-image: url("../assets/plastic-surg-react-html.jpg");
+    background-position: center;
+    margin: 4px;
+    width: 49%;
+    padding-top: 200px;
+    border: 5px solid #39a6b2;
+}
+
+
+.flex-column2 {
+    margin: 10px;
+    padding-right: 15px;
+    padding-bottom: 900px;
+    width: 20%;
+    border-right: 10px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content:right;
+}
+
+.flex-column2 h2 {
     font-size: 45px;
 }
 
@@ -204,6 +251,14 @@ footer a:hover {
     width: 100%;
     padding-top: 400px;
     border: 5px solid #39a6b2;
+}
+
+.surf:hover {
+    color: bisque;
+}
+
+.background-image:hover {
+    content:url("../assets/iot-in-healthcare.png");
 }
 
 .led {
