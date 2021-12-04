@@ -192,9 +192,13 @@ footer nav ul li a {
     padding-top: 400px;
     border: 5px solid #39a6b2;
 }
+.surf-background-image:hover {
+    color: bisque;
+}
 
 .led {
     background-image: url("../assets/iot-in-healthcare.png");
+    background-position: center;
     margin: 4px;
     width: 49%;
     padding-top: 200px;
@@ -202,6 +206,8 @@ footer nav ul li a {
 }
 
 .calculator {
+    background-image: url("../assets/plastic-surg-react-html.jpg");
+    background-position: center;
     margin: 4px;
     width: 49%;
     padding-top: 200px;
@@ -209,6 +215,8 @@ footer nav ul li a {
 }
 
 .pastel { 
+    background-image: url("../assets/MERN-image.png");
+    background-position: center;    
     margin: 4px;
     width: 49%;
     padding-top: 200px;
@@ -217,6 +225,7 @@ footer nav ul li a {
 
 .run {
     background-image: url("../assets/hero-rad-bg.jpg");
+    background-position: center;
     margin: 4px;
     width: 49%;
     padding-top: 200px;
