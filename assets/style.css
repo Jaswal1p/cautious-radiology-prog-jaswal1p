@@ -12,8 +12,12 @@ header {
     padding: 30px 15px 0px 25px;
     background-color: black;
 }
+
 header h1 {
-    width: 135%;
+    width: 110%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     font-weight: bold;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -254,18 +258,19 @@ footer a:hover {
     justify-items: stretch;
 }
 
-.surf {
-    background-image: url("../assets/IMG_4253.jpg");
-    font-size: 40px;
+.run {
+    background-image: url("../assets/hero-bg.jpg");
+    background-position: center;
+    display:block;
     margin: 4px;
     width: 100%;
     padding-top: 400px;
     border: 5px solid #39a6b2;
 }
 
-.surf:hover {
+.run:hover {
     color: rgb(3, 6, 204);
-    background-image:url("../assets/edit_IMG_4253.jpg");
+    background-image:url("ed-hero-rad-bg.jpg");
 }
 
 .background-image:hover {
@@ -314,20 +319,21 @@ footer a:hover {
     background-image:url("ed-MERN-image.png");
 }
 
-.run {
-    background-image: url("../assets/hero-rad-bg.jpg");
-    background-position: center;
-    display:block;
+.surf {
+    background-image: url("../assets/IMG_4253.jpg");
+    font-size: 40px;
     margin: 4px;
     width: 49%;
     padding-top: 200px;
     border: 5px solid #39a6b2;
 }
 
-.run:hover {
+.surf:hover {
     color: rgb(3, 6, 204);
-    background-image:url("ed-hero-rad-bg.jpg");
+    background-image:url("../assets/edit_IMG_4253.jpg");
 }
+
+
 
 /* Work ends here */
 
