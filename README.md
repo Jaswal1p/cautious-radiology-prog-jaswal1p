@@ -12,6 +12,6 @@ The url for webpage is https://jaswal1p.github.io/cautious-radiology-prog-jaswal
 
 The url for github page is https://github.com/Jaswal1p/cautious-radiology-prog-jaswal1p.git
 
-The wire framing image is ![Alt text](/relative/path/to/wireframeIMG_4397.jpg?raw=true "wireframe")
+The wire framing image is https://github.com/Jaswal1p/cautious-radiology-prog-jaswal1p/blob/main/assets/wireframeIMG_4397.jpg
 
-The deployed site image link is 
+The deployed site image link is https://github.com/Jaswal1p/cautious-radiology-prog-jaswal1p/blob/main/assets/site-pic-IMG_4398.jpg
