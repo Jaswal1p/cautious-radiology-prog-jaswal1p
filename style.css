@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* apply styles to <header> */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 15px 0px 25px;
+    background-color: black;
+}
+
+header h1 {
+    width: 110%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    background-color: rgb(45, 197, 189);
+    margin: 0px;
+}
+header p {
+    color: black;
+}
+header a {
+    text-decoration: none;
+    color: rgb(45, 197, 189);
+}
+header a:hover {
+    color: #fff;
+}
+header nav {
+    margin: 7px 0px;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.90vw;
+}
+/* footer Style starts*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    width: 100%;
+    padding: 40px 35px;
+}
+footer h2 {
+    color: cornflowerblue;
+    font-size: 30px;
+    margin: 0;
+}
+footer nav {
+    margin: 7px;
+}
+footer nav ul {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+footer nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    color: black;
+    font-size: 1.90vw;
+}
+
+footer a:hover {
+    color:rgb(45, 197, 189);
+}
+
+/* hero styles start here */
+
+.hero {
+    background-image: url("../assets/radiology_static_1.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    font-size: 18px;
+    line-height: 1.3;
+    padding: 5px 20px 0 0;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+  }
+
+.hero-cta p {
+    font-style: inherit;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(7, 5, 107);
+}  
+
+.hero-form {
+    border: 3px solid #024e76;
+    background-color: #8fbbc9;
+    padding:20px 0 0 20px;
+    color: #024e76;
+    width: 40%;
+    margin: 3.5%;
+}
+.hero-form-input {
+    width: 80%;
+}
+
+.hero-form h3 {
+    font-size: 24;
+    margin: 0px;
+}
+
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: rgba(255,255,255, 0.50);
+} 
+
+.form-input:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+}
+
+.hero-form label {
+  margin: 0 5px;
+}
+
+.hero-form button {
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    color: #fce138;
+    font-size: 16px;
+}
+
+/* About me starts here */
+
+.intro {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.flex-column1 {
+    margin: 10px;
+    padding-right: 15px;
+    padding-bottom: 200px;
+    width: 20%;
+    border-right: 10px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content:right;
+}
+
+.flex-column1 h2 {
+    font-size: 45px;
+}
+
+.experience {
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content:space-between;
+    justify-items: stretch;
+}
+
+.physician {
+    background-color:rgb(148, 145, 118, 0.50);
+    background-position: center;
+    margin: 4px;
+    width: 49%;
+    padding-top: 200px;
+    border: 5px solid #39a6b2;
+}
+
+.physician:hover {
+    background-color: rgb(148, 145, 118, 1);
+}
+
+.web-developer {
+    background-color: rgb(148, 145, 118, 0.50);
+    background-position: center;
+    margin: 4px;
+    width: 49%;
+    padding-top: 200px;
+    border: 5px solid #39a6b2;
+}
+
+.web-developer:hover {
+    background-color: rgb(148, 145, 118, 1);
+}
+/* About me ends here */
+
+/* Work starts here */
+
+.flex-column2 {
+    margin: 10px;
+    padding-right: 15px;
+    padding-bottom: 900px;
+    width: 20%;
+    border-right: 10px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content:right;
+}
+
+.flex-column2 h2 {
+    font-size: 45px;
+}
+.projects {
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content:space-between;
+    justify-items: stretch;
+}
+
+.run {
+    background-image: url("../assets/hero-bg.jpg");
+    background-position: center;
+    display:block;
+    margin: 4px;
+    width: 100%;
+    padding-top: 400px;
+    border: 5px solid #39a6b2;
+}
+
+.run:hover {
+    color: rgb(3, 6, 204);
+    background-image:url("ed-hero-rad-bg.jpg");
+}
+
+.background-image:hover {
+    content:url("../assets/iot-in-healthcare.png");
+}
+
+.led {
+    background-image: url("../assets/iot-in-healthcare.png");
+    background-position: center;
+    margin: 4px;
+    width: 49%;
+    padding-top: 200px;
+    border: 5px solid #39a6b2;
+}
+
+.led:hover {
+    color: rgb(3, 6, 204);
+    background-image:url("ed-iot-in-healthcare.png");
+}
+
+.calculator {
+    background-image: url("../assets/plastic-surg-react-html.jpg");
+    background-position: center;
+    margin: 4px;
+    width: 49%;
+    padding-top: 200px;
+    border: 5px solid #39a6b2;
+}
+
+.calculator:hover {
+    color: rgb(3, 6, 204);
+    background-image:url("ed-plastic-surg-react-html.jpg");
+}
+
+.pastel { 
+    background-image: url("../assets/MERN-image.png");
+    background-position: center;    
+    margin: 4px;
+    width: 49%;
+    padding-top: 200px;
+    border: 5px solid #39a6b2;
+}
+
+.pastel:hover {
+    color: rgb(3, 6, 204);
+    background-image:url("ed-MERN-image.png");
+}
+
+.surf {
+    background-image: url("../assets/IMG_4253.jpg");
+    font-size: 40px;
+    margin: 4px;
+    width: 49%;
+    padding-top: 200px;
+    border: 5px solid #39a6b2;
+}
+
+.surf:hover {
+    color: rgb(3, 6, 204);
+    background-image:url("../assets/edit_IMG_4253.jpg");
+}
+
+
+
+/* Work ends here */
+
+/* utilities */
+
+section {
+    padding: 60px;
+}
