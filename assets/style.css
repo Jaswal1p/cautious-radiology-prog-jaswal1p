@@ -357,7 +357,7 @@ section {
 @media screen and (max-width: 980px) {
     header h1 p {
       /* this will be applied on any screen smaller than 980px */
-      color: tomato;
+      color: blue;
     }
   }
   
