@@ -1,5 +1,7 @@
 # cautious-radiology-prog-jaswal1p
 
+PLEASE SEE MY DEVELOP BRANCH FOR WORK DONE ON MEDIA QUERIES. I WAS NERVOUS ABOUT MERGING AND WILL NEED TUTOR HELP. I messed up the merge once.
+
 I am creating this website to someday showcase my consulting and web development 
 business, to help private practice and academic radiologits to set up their professional services for efficient flow, by using software tools to to precisly manage patient care and follow-ups.
 
