@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .section-title {
     font-size: 48;
 } 
 
+=======
+>>>>>>> main
 /* apply styles to <header> */
 header {
     display: flex;
@@ -18,7 +21,11 @@ header {
 }
 
 header h1 {
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 110%;
+>>>>>>> main
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -31,11 +38,14 @@ header h1 {
 }
 header p {
     color: black;
+<<<<<<< HEAD
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
     align-items: center;
     list-style: none;
+=======
+>>>>>>> main
 }
 header a {
     text-decoration: none;
@@ -112,7 +122,11 @@ footer a:hover {
     text-align: right;
     margin: 3.5%;
     font-size: 18px;
+<<<<<<< HEAD
     line-height: 1.2;
+=======
+    line-height: 1.3;
+>>>>>>> main
     padding: 5px 20px 0 0;
 }
 
