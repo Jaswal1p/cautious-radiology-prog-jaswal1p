@@ -412,6 +412,42 @@ section {
   }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 1024px) {
+    section {
+      padding: 30px 15px;
+    } 
+    .hero {
+        padding: 30 px 15px;
+    }
+
+    .hero-cta, .hero-form {
+        width: 100%;
+      }
+      
+    .hero-cta {
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero-form {
+        flex: 2 100%;
+        padding:0 0 0 20px;
+    }
+    
+    .About-me {
+        padding-top: 200px;
+    }
+
+    .led, .calculator, .pastel, .surf, .physician, .web-developer {
+        width: 100%;
+    }
+
+    .intro {
+        padding-top: 200px;
+    }
+  }
+
+
   @media screen and (max-width: 768px) {
     section {
       padding: 30px 15px;
