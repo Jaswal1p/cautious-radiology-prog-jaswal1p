@@ -354,6 +354,87 @@ section {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 
+@media screen and (max-width: 1024px) {
+    header {
+        padding-bottom: 0;
+        justify-content:space-between;
+        text-align: center;
+        
+    }
+
+        header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 40%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    footer h2, footer div {
+        text-align: center;
+        width: 90%;
+    }
+
+    footer nav {
+        justify-content: center;
+    }
+
+    footer nav ul li a {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 0 0 0 0;
+    }
+
+    .hero-cta {
+        width: 75%;
+        padding: 0 0 5px 25px;
+      }
+
+    .hero-form {
+        width: 75%;
+        padding:0 0 0 25px;
+          }
+    }  
+
+    .hero-cta h2 p {
+        text-align: center;
+    }  
+      
+    .hero-cta {
+        flex: unset;
+        text-align: center;
+    }
+
+    .hero-form {
+        
+        padding:0 0 0 0px;
+    }
+
+    .About-me {
+        padding-top: 500px;
+    }
+
+    .led, .calculator, .pastel, .surf, .physician, .web-developer {
+        width: 100%;
+    }
+
+    .intro {
+        padding-top: 200px;
+    }
+    
+  }
+
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
