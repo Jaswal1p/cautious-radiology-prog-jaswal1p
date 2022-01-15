@@ -320,7 +320,7 @@ footer a:hover {
 }
 
 .surf {
-    background-image: url("../assets/projectRecepieBudget1.png");
+    background-image: url("../assets/project1.png");
     background-position: center; 
     font-size: 40px;
     margin: 4px;
@@ -331,7 +331,7 @@ footer a:hover {
 
 .surf:hover {
     color: rgb(3, 6, 204);
-    background-image: url("ed-projectRecepieBudget.png");
+    background-image:url("ed-project.png");
 }
 
 
