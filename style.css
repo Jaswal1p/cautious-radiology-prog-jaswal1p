@@ -320,7 +320,7 @@ footer a:hover {
 }
 
 .surf {
-    background-image: url("../assets/IMG_4253.jpg");
+    background-image: url("../assets/projectRecepieBudget1.png");
     font-size: 40px;
     margin: 4px;
     width: 49%;
@@ -330,7 +330,7 @@ footer a:hover {
 
 .surf:hover {
     color: rgb(3, 6, 204);
-    background-image:url("../assets/edit_IMG_4253.jpg");
+    background-image:url("../assets/projectRecepieBudget.png");
 }
 
 

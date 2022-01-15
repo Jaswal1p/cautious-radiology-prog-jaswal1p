@@ -1,10 +1,10 @@
 # cautious-radiology-prog-jaswal1p
 
 I am creating this website to someday showcase my consulting and web development 
-business, to help private practice and academic radiologits to set up their work efficiency by using software tools to make their workflow, patient info and follow-up management.
+business, to help private practice and academic radiologits to set up their practices by using software tools to make their workflow, patient info and follow-up management more efficient.
 
-Please not that I have intentinally not linked my resume and various speciality membership
-pages, as this is still learning and early building enviroment.
+Please note that I have intentinally not linked my resume and various speciality membership
+pages at this time as this is a learning and early building enviroment at this time.
 
 I am also still working on making its display on cell-phones little bit better.
 
