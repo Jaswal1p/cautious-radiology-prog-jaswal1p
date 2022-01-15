@@ -321,8 +321,8 @@ footer a:hover {
 
 .surf {
     background-image: url("../assets/project1.png");
-    background-position: center; 
-    font-size: 40px;
+    
+    font-size: 10px;
     margin: 4px;
     width: 49%;
     padding-top: 200px;
