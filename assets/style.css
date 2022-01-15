@@ -18,7 +18,7 @@ header {
 }
 
 header h1 {
-    width: 100%;
+    width: 110%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -112,7 +112,7 @@ footer a:hover {
     text-align: right;
     margin: 3.5%;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.3;
     padding: 5px 20px 0 0;
 }
 
@@ -351,9 +351,11 @@ footer a:hover {
 section {
     padding: 60px;
 }
-
-
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+
+
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
@@ -395,45 +397,9 @@ section {
 
     .hero-form {
         flex: 2 100%;
-    }
-
-    .About-me {
-        padding-top: 200px;
-    }
-
-    .led, .calculator, .pastel, .surf, .physician, .web-developer {
-        width: 100%;
-    }
-
-    .intro {
-        padding-top: 200px;
-    }
-    
-  }
-  
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 1024px) {
-    section {
-      padding: 30px 15px;
-    } 
-    .hero {
-        padding: 30 px 15px;
-    }
-
-    .hero-cta, .hero-form {
-        width: 100%;
-      }
-      
-    .hero-cta {
-        padding: 0;
-        text-align: center;
-    }
-
-    .hero-form {
-        flex: 2 100%;
         padding:0 0 0 20px;
     }
-    
+
     .About-me {
         padding-top: 200px;
     }
@@ -445,10 +411,53 @@ section {
     .intro {
         padding-top: 200px;
     }
+    
   }
 
 
-  @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
+    header {
+            padding-bottom: 0;
+            
+            text-align: center;
+            
+        }
+    
+    header h1 {
+            width: 110%;
+            text-align: center;
+        }
+    
+    header nav ul {
+            margin-top: 20px;
+            width: 100%;
+            justify-content: center;
+        }
+    
+    header nav ul li a {
+            font-size: 30px;
+            text-align: center;
+        }
+
+    footer {
+        justify-content: center;
+    }    
+    
+    footer h2, footer div {
+            font-size: 40px;
+            text-align: center;
+            width: 90%;
+        }
+    
+    footer nav ul {
+            justify-content:space-around;
+        }
+    
+    footer nav ul li a {
+            width: 90%;
+            font-size: 65px;
+            text-align:right;
+        }
     section {
       padding: 30px 15px;
     } 
@@ -457,7 +466,7 @@ section {
     }
 
     .hero-cta, .hero-form {
-        width: 100%;
+        width: 70%;
       }
       
     .hero-cta {
@@ -485,36 +494,94 @@ section {
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
-    section {
-        padding: 30px 15px;
-      } 
-      .hero {
-          padding: 30 px 15px;
-      }
-  
-      .hero-cta, .hero-form {
-          width: 100%;
-        }
+    header {
+        padding-bottom: 0;
         
-      .hero-cta {
-          padding: 0;
-          text-align: center;
-      }
+        text-align: center;
+        
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content:start;
+    }
+
+    header nav ul li a {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    footer {
+    justify-content: center;
+}    
+
+    footer h2, footer div {
+        font-size: 60px;
+        text-align: center;
+        width: 90%;
+    }
+
+    footer nav ul {
+        justify-content:space-around;
+    }
+
+    footer nav ul li a {
+        width: 90%;
+        font-size: 60px;
+        text-align:right;
+        color:rgb(9, 82, 95);
+    }
+    
+    .hero {
+       padding: 30 px 15px;
+    }
+
+    .hero-cta, .hero-form {
+       width: 70%;
+  }
   
-      .hero-form {
-          flex: 2 100%;
-          padding:0 0 0 20px;
-      }
-      
-      .About-me {
-          padding-top: 200px;
-      }
-  
-      .led, .calculator, .pastel, .surf, .physician, .web-developer {
-          width: 100%;
-      }
-  
-      .intro {
-          padding-top: 500px;
-      }
+   .hero-cta {
+       padding: 0;
+       text-align: center;
+}
+
+   .hero-cta h2 {
+       font-size: 25px;
+   }
+
+   .hero-form {
+        padding:0 0 0 20px;
+}
+
+   .About-me {
+      padding-top: 100px;
+   }
+
+   .experience {
+      width: 80%;
+      padding: 0; 
+    }
+
+    .flex-column1 {
+        width: 20%;
+    }
+
+   .flex-column1 h2, .flex-column2 h2 {
+      font-size: 20px;
+   } 
+
+
+   .led, .calculator, .pastel, .surf, .physician, .web-developer {
+    width: 100%;
+}
+
+   .intro {
+    padding-top: 200px;
+}
   }
