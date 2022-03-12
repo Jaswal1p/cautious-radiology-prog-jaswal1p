@@ -342,6 +342,20 @@ footer a:hover {
     background-image:url("../assets/edit_IMG_4253.jpg");
 }
 
+.full {
+    background-image: url("../assets/FullStackProjectEdit.png");
+    font-size: 18px;
+    margin: 4px;
+    width: 49%;
+    padding-top: 200px;
+    border: 5px solid #39a6b2;
+}
+
+.full:hover {
+    color: rgb(3, 6, 204);
+    background-image:url("../assets/FullStackProject.png");
+}
+
 
 
 /* Work ends here */
